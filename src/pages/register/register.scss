@@ -1,0 +1,76 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  padding: 21px;
+  padding-top: 100px;
+  h1 {
+    color: #333;
+    margin: 17px 0;
+  }
+  .register-form {
+    width: 60%;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .input-group {
+      margin: 10px 0;
+      width: 48%;
+      label {
+        display: block;
+        margin: 5px 0;
+        font-size: 17px;
+      }
+      input {
+        border: 1px solid gray;
+        width: 100%;
+        height: 50px;
+        padding:10px;
+        font-size: 21px;
+        border-radius: 7px;
+        &:focus {
+          outline: none;
+          border-color: var(--orange-color);
+        }
+      }
+    }
+    .register-new-user-btn {
+      background-color: var(--orange-color);
+      color: #fff;
+      font-size: 21px;
+      margin: 10px 0;
+      width: 100%;
+      border-radius: 7px;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+    }
+  }
+}
+/* Media Queries */
+@media (max-width: 991px) {
+  .register {
+    .register-form {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 520px) {
+  .register {
+    height: auto;
+    .register-form {
+      .input-group {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  }
+}

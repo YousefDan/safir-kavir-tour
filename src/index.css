@@ -1,0 +1,42 @@
+@font-face{
+  font-family: vazir;
+  src: url("./fonts/Vazir-Medium.eot") format("eot"),
+  url("./fonts/Vazir-Medium.woff") format("woff"),
+  url("./fonts/Vazir-Medium.woff2") format("woff2"),
+  url("./fonts/Vazir-Bold.eot") format("eot"),
+  url("./fonts/Vazir-Bold.ttf") format("ttf"),
+  url("./fonts/Vazir-Bold.woff") format("woff"),
+  url("./fonts/Vazir-Bold.woff2") format("woff2");
+}
+@font-face{
+  font-family: yekan;
+  src: url("./fonts/Yekan.eot") format("eot"),
+  url("./fonts/Yekan.woff") format("woff"),
+  url("./fonts/Yekan.woff2") format("woff2");
+}
+:root {
+  --orange-color:#ffa500;
+}
+::selection {
+  color: #fff;
+  background-color: var(--orange-color);
+}
+*{
+  font-family: vazir, yekan,sans ,'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
