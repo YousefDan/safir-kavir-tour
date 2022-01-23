@@ -9,7 +9,7 @@ import ContactUs from "./pages/contact-us/ContactUs";
 import AboutUs from "./pages/about-us/AboutUs";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import SinglePackage from "./pages/packages/SinglePackage";
+import SinglePackage from "./pages/single-package/SinglePackage";
 
 const App = () => {
   return ( <BrowserRouter>
