@@ -1,5 +1,6 @@
 .package-list {
   padding: 21px 40px;
+  overflow-x: hidden;
   .packages-container {
     background-color: #efefef;
     display: flex;
@@ -14,9 +15,6 @@
       background-color: #fff;
       border-radius: 7px;
       overflow: hidden;
-      &:hover img {
-        transform: scale(1.1);
-      }
       .img-wrapper {
         overflow: hidden;
         width: 100%;
@@ -25,7 +23,6 @@
           width: 100%;
           height: 100%;
           object-fit: cover;
-          transition: transform 0.5s ease;
         }
       }
     }
@@ -77,8 +74,10 @@
 }
 @media (max-width: 780px) {
   .package-list {
+    padding: 17px;
     .packages-container {
       justify-content: center;
+      padding: 10px;
       .package-item {
         width: 99%;
         margin-bottom: 30px;

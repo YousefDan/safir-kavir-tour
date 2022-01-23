@@ -15,11 +15,6 @@ const Navbar = ({toggle}) => {
           </Link>
         </li>
         <li>
-          <Link className="link" to="/gallery">
-            گالری
-          </Link>
-        </li>
-        <li>
           <Link className="link" to="/blog">
             بلاگ
           </Link>

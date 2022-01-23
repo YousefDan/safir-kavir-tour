@@ -24,44 +24,44 @@ export const packagesData = [
   {
     id: 1,
     img: "/images/desert1.jpg",
-    title:"عبور از عرض کویر",
+    title: "عبور از عرض کویر",
     desc: "این برنامه شامل 3 ساعت کویر نوردی به همراه راهنمای مجرب و اقامت شبانه در ...",
-    duration: "یک و نیم روزه"
+    duration: "یک و نیم روزه",
   },
   {
     id: 2,
     img: "/images/desert2.jpg",
-    title:"آفرود در کویر مرنجاب",
+    title: "آفرود در کویر مرنجاب",
     desc: "این برنامه شامل 3 ساعت کویر نوردی به همراه راهنمای مجرب و اقامت شبانه در ...",
-    duration:"یک روزه"
+    duration: "یک روزه",
   },
   {
     id: 3,
     img: "/images/desert3.jpg",
-    title:"تور قصر بهرام",
+    title: "تور قصر بهرام",
     desc: "این برنامه شامل 3 ساعت کویر نوردی به همراه راهنمای مجرب و اقامت شبانه در ...",
-    duration:"سه روز و دو شب"
+    duration: "سه روز و دو شب",
   },
   {
     id: 4,
     img: "/images/desert4.jpg",
-    title:" تور ریگ جن",
+    title: " تور ریگ جن",
     desc: "این برنامه شامل یک روز کویر وردی در ریگ جن به همراه اقامت در چادر در کویر است",
-    duration:"چهار روز و سه شب"
+    duration: "چهار روز و سه شب",
   },
   {
     id: 5,
     img: "/images/desert5.jpg",
-    title:"تور کویر مرنجاب",
+    title: "تور کویر مرنجاب",
     desc: "بازدید از کاروانسرای تاریخی مرنجاب و پیاده روی در دریاچه نمک ...",
-    duration:"یک و نیم روزه"
+    duration: "یک و نیم روزه",
   },
   {
     id: 6,
     img: "/images/desert6.jpg",
-    title:" کویر مرنجاب",
+    title: " کویر مرنجاب",
     desc: "بازدید از کاروانسرای تاریخی مرنجاب و پیاده روی در دریاچه نمک ...",
-    duration:"سه روز و دوشب"
+    duration: "سه روز و دوشب",
   },
 ];
 
@@ -70,36 +70,68 @@ export const tourDetailsData = [
     id: 1,
     icon: "fas fa-utensils",
     title: "وعده های غذایی",
-    info:"دو وعده",
+    info: "دو وعده",
   },
   {
     id: 2,
     icon: "fas fa-hiking",
     title: "درجه سختی",
-    info:"سه ساعت کویر نوردی",
+    info: "سه ساعت کویر نوردی",
   },
   {
     id: 3,
     icon: "fas fa-clock",
     title: "زمان حرکت",
-    info:"14:00",
+    info: "14:00",
   },
   {
     id: 4,
     icon: "fas fa-clock",
     title: "زمان بازگشت",
-    info:"22:00",
+    info: "22:00",
   },
   {
     id: 5,
     icon: "fas fa-stopwatch",
     title: "مدت تور",
-    info:"یک و نیم روز",
+    info: "یک و نیم روز",
   },
   {
     id: 6,
     icon: "fas fa-truck-pickup",
     title: "وسیله نقلیه",
-    info:"پاترل",
+    info: "پاترل",
+  },
+];
+export const servicesData = [
+  {
+    id: 1,
+   icon: "fas fa-hotel",
+   title: "اقامتگاههای بوم گردی",
+  },
+  {
+    id: 2,
+   icon: "fas fa-hiking",
+   title: "ماجراجویی",
+  },
+  {
+    id: 3,
+   icon: "fas fa-utensils",
+   title: "غذا و نوشیدنی های محلی",
+  },
+  {
+    id: 4,
+   icon: "fas fa-wallet",
+   title: "قیمت مناسب",
+  },
+  {
+    id: 5,
+   icon: "fas fa-campground",
+   title: "کمپ در کویر",
+  },
+  {
+    id: 6,
+   icon: "fas fa-truck-pickup",
+   title: "وسیله نقلیه مناسب",
   },
 ]
