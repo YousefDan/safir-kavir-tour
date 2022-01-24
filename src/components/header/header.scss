@@ -1,5 +1,4 @@
 header {
-  overflow-x: hidden;
   background-color: #333;
   color: #fff;
   display: flex;
@@ -34,10 +33,11 @@ header {
   }
   nav.navbar {
     color: #fff;
-    ul.links {
+    background-color: #333;
+    .navbar-links {
       display: flex;
       align-items: center;
-      li {
+      .navbar-link {
         margin: 0 17px;
         font-size: 21px;
         .link {
@@ -58,6 +58,7 @@ header {
     font-size: 17px;
     cursor: pointer;
     border-radius: 4px;
+    margin-left: 10px;
     &:hover {
       background-color: rgb(253, 183, 53);
     }
@@ -78,10 +79,10 @@ header {
       width: 100vw;
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       transition: all 1s ease;
-      ul.links {
+      .navbar-links {
         padding: 0 40px;
         display: block;
-        li {
+        .navbar-link {
           margin: 12px 0;
         }
       }

@@ -1,0 +1,106 @@
+footer {
+  padding: 21px 40px;
+  background-color: #222821;
+  color: white;
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  .footer-item {
+    flex: 1;
+    h3 {
+      font-size: 32px;
+      border-bottom: 2px solid orange;
+      width: max-content;
+      padding-bottom: 5px;
+      margin-bottom: 17px;
+    }
+    p {
+      width: 70%;
+      text-align: justify;
+      line-height: 1.7;
+      color: #eee;
+      font-size: 17px;
+    }
+    .footer-links {
+      li.footer-link {
+        display: flex;
+        align-items: center;
+        font-size: 21px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        width: max-content;
+        i {
+          margin-left: 7px;
+          color: var(--orange-color);
+          transition: margin-left 0.4s ease;
+        }
+        &:hover {
+          color: var(--orange-color);
+          i {
+            margin-left: 14px;
+          }
+        }
+      }
+    }
+    .contact-info {
+      // direction: ltr;
+
+      div {
+        font-size: 21px;
+        margin-bottom: 17px;
+        i {
+          color: var(--orange-color);
+          margin-left: 10px;
+        }
+      }
+    }
+    .footer-icons {
+      display: flex;
+      margin-top: 32px;
+      .footer-icon {
+        width: 60px;
+        height: 60px;
+        background-color: #3498db;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 7px;
+        cursor: pointer;
+        i {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
+.credit {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 10px;
+}
+@media (max-width: 991px) {
+  footer {
+    padding: 17px 10px;
+    .footer-item {
+      p {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  footer {
+    padding: 40px;
+    flex-direction: column;
+    .footer-item {
+      margin-bottom: 40px;
+    }
+  }
+}
