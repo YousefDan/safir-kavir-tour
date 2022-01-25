@@ -10,6 +10,7 @@ import AboutUs from "./pages/about-us/AboutUs";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import SinglePackage from "./pages/single-package/SinglePackage";
+import SinglePost from "./pages/single-post/SinglePost";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/packages" element={<Packages />} />
         <Route path="/packages/:id" element={<SinglePackage />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/posts/:id" element={<SinglePost />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/login" element={<Login />} />

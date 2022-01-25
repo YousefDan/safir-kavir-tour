@@ -64,7 +64,6 @@ export const packagesData = [
     duration: "سه روز و دوشب",
   },
 ];
-
 export const tourDetailsData = [
   {
     id: 1,
@@ -133,5 +132,47 @@ export const servicesData = [
     id: 6,
    icon: "fas fa-truck-pickup",
    title: "وسیله نقلیه مناسب",
+  },
+];
+export const articliesData = [
+  {
+    id: 1,
+    title:"تپه ی خطب شکن",
+    publishedDate: "1/11/1400",
+    categories: ['جاذبه ها','کویر مرنجاب'],
+    author: "علی محمد خاکدوست",
+    img:"/images/desert1.jpg",
+  },
+  {
+    id: 2,
+    title:"کاروانسرای قصر بهرام",
+    publishedDate: "1/11/1399",
+    categories: ['جاذبه ها','کویر مرنجاب'],
+    author: "علی محمد خاکدوست",
+    img:"/images/desert1.jpg",
+  },
+  {
+    id: 3,
+    title:"درختان کویر",
+    publishedDate: "1/11/1400",
+    categories: ['جاذبه ها','کویر مرنجاب','درختان'],
+    author: "علی محمد خاکدوست",
+    img:"/images/desert1.jpg",
+  },
+  {
+    id: 4,
+    title:"کویر سنبک",
+    publishedDate: "11/9/1400",
+    categories: ['جاذبه ها','کویر مرنجاب'],
+    author: "علی محمد خاکدوست",
+    img:"/images/desert1.jpg",
+  },
+  {
+    id: 5,
+    title:"ریگ جن",
+    publishedDate: "10/10/1400",
+    categories: ['جاذبه ها','کویر','طبیعت گردی'],
+    author: "علی محمد خاکدوست",
+    img:"/images/desert1.jpg",
   },
 ]
