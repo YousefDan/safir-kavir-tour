@@ -1,0 +1,41 @@
+.blog-header {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .blog-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      width: 310px;
+      height: 170px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: rgb(88, 85, 85);
+      border: 2px solid orange;
+      span:first-child {
+        font-size: 40px;
+        margin-top: -21px;
+      }
+      span:last-child {
+        font-size: 60px;
+        margin-top: -17px;
+        font-weight: 600;
+      }
+    }
+  }
+}

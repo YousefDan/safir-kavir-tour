@@ -8,6 +8,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+  left: 0;
   width: 100vw;
   height: 80px;
   z-index: 999;
@@ -58,7 +59,6 @@ header {
     font-size: 17px;
     cursor: pointer;
     border-radius: 4px;
-    margin-left: 10px;
     &:hover {
       background-color: rgb(253, 183, 53);
     }
@@ -86,6 +86,9 @@ header {
           margin: 12px 0;
         }
       }
+    }
+    .login-btn {
+      margin-left: 10px;
     }
   }
 }

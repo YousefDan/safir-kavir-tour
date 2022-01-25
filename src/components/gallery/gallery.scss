@@ -1,6 +1,7 @@
 .gallery {
   overflow-x: hidden;
   padding: 5px 21px;
+  margin-bottom: 70px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);

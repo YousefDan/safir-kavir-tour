@@ -2,7 +2,6 @@ footer {
   padding: 21px 40px;
   background-color: #222821;
   color: white;
-  margin-top: 70px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -44,8 +43,6 @@ footer {
       }
     }
     .contact-info {
-      // direction: ltr;
-
       div {
         font-size: 21px;
         margin-bottom: 17px;
@@ -55,19 +52,19 @@ footer {
         }
       }
     }
-    .footer-icons {
+    .social-media-icons {
       display: flex;
       margin-top: 32px;
       .footer-icon {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         background-color: #3498db;
         color: white;
-        border-radius: 50%;
+        border-radius: 7px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 7px;
+        margin-left: 10px;
         cursor: pointer;
         i {
           font-size: 32px;
