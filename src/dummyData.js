@@ -149,7 +149,7 @@ export const articliesData = [
     publishedDate: "1/11/1399",
     categories: ['جاذبه ها','کویر مرنجاب'],
     author: "علی محمد خاکدوست",
-    img:"/images/desert1.jpg",
+    img:"/images/desert2.jpg",
   },
   {
     id: 3,
@@ -157,7 +157,7 @@ export const articliesData = [
     publishedDate: "1/11/1400",
     categories: ['جاذبه ها','کویر مرنجاب','درختان'],
     author: "علی محمد خاکدوست",
-    img:"/images/desert1.jpg",
+    img:"/images/desert3.jpg",
   },
   {
     id: 4,
@@ -165,7 +165,7 @@ export const articliesData = [
     publishedDate: "11/9/1400",
     categories: ['جاذبه ها','کویر مرنجاب'],
     author: "علی محمد خاکدوست",
-    img:"/images/desert1.jpg",
+    img:"/images/desert4.jpg",
   },
   {
     id: 5,

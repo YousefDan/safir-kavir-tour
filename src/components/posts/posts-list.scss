@@ -2,3 +2,8 @@
     flex: 9;
     margin: 17px;
 }
+@media (max-width: 1200px) {
+    .posts-list {
+        flex: 6;
+    }
+}
